@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSecActivity"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/background2"/>
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Sign In"
+        android:fontFamily="casual"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="30dp"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"
+            android:ems="10"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="textEmailAddress"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:passwordToggleTint="#FF6F66"
+        android:textColorHint="#ffffff"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:ems="10"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="casual"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="SIGN IN"
+        android:fontFamily="casual"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Not have an account? \nNew to GLA University eLibrary?"
+            android:fontFamily="casual"/>
+
+
+        <TextView
+            android:id="@+id/textViewSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="75dp"
+            android:gravity="center_horizontal"
+            android:textColor="#F1948A"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Create Account"
+            android:fontFamily="casual"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "214912645991",
+    "firebase_url": "https://glauniversityelibrary.firebaseio.com",
+    "project_id": "glauniversityelibrary",
+    "storage_bucket": "glauniversityelibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214912645991:android:a41bad232342ebd4",
+        "android_client_info": {
+          "package_name": "com.example.glauniversityelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214912645991-78qd5if6gkffneuda3pn5iadd6qhbq5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.glauniversityelibrary",
+            "certificate_hash": "157bcebd71f605adeaeebe9372b3429ac5234fbd"
+          }
+        },
+        {
+          "client_id": "214912645991-r6nog9prf32nk34emm8r44fosfla2sbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9yApUXb2Tcnjy_tPj-O284b5K47z3VZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214912645991-r6nog9prf32nk34emm8r44fosfla2sbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
